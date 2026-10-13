@@ -1,0 +1,621 @@
+{
+  "subset": "FD003",
+  "model_type": "LSTM",
+  "device": "cpu",
+  "best_epoch": 14,
+  "epochs_completed": 19,
+  "validation_engines": 20,
+  "validation_mae": 7.661540985107422,
+  "validation_rmse": 12.408749576006402,
+  "test_engines": 100,
+  "test_mae": 11.315369248390198,
+  "test_rmse": 15.10877163156965,
+  "test_nasa_score": 388.0337756710481,
+  "sequence_length": 30,
+  "feature_count": 18,
+  "rul_cap": 125,
+  "prediction_report": "reports\\test_predictions_fd003.csv",
+  "training_history": "reports\\training_history_fd003.csv",
+  "test_predictions": [
+    {
+      "engine_id": 1,
+      "last_observed_cycle": 233,
+      "actual_rul_cycles": 44.0,
+      "predicted_rul_cycles": 38.817291259765625
+    },
+    {
+      "engine_id": 2,
+      "last_observed_cycle": 124,
+      "actual_rul_cycles": 51.0,
+      "predicted_rul_cycles": 55.711509704589844
+    },
+    {
+      "engine_id": 3,
+      "last_observed_cycle": 234,
+      "actual_rul_cycles": 27.0,
+      "predicted_rul_cycles": 35.13494873046875
+    },
+    {
+      "engine_id": 4,
+      "last_observed_cycle": 68,
+      "actual_rul_cycles": 120.0,
+      "predicted_rul_cycles": 124.43002319335938
+    },
+    {
+      "engine_id": 5,
+      "last_observed_cycle": 138,
+      "actual_rul_cycles": 101.0,
+      "predicted_rul_cycles": 119.28585052490234
+    },
+    {
+      "engine_id": 6,
+      "last_observed_cycle": 64,
+      "actual_rul_cycles": 99.0,
+      "predicted_rul_cycles": 122.905029296875
+    },
+    {
+      "engine_id": 7,
+      "last_observed_cycle": 158,
+      "actual_rul_cycles": 71.0,
+      "predicted_rul_cycles": 47.28402328491211
+    },
+    {
+      "engine_id": 8,
+      "last_observed_cycle": 192,
+      "actual_rul_cycles": 55.0,
+      "predicted_rul_cycles": 65.50406646728516
+    },
+    {
+      "engine_id": 9,
+      "last_observed_cycle": 238,
+      "actual_rul_cycles": 55.0,
+      "predicted_rul_cycles": 58.62861633300781
+    },
+    {
+      "engine_id": 10,
+      "last_observed_cycle": 131,
+      "actual_rul_cycles": 66.0,
+      "predicted_rul_cycles": 68.07320404052734
+    },
+    {
+      "engine_id": 11,
+      "last_observed_cycle": 103,
+      "actual_rul_cycles": 77.0,
+      "predicted_rul_cycles": 78.12351989746094
+    },
+    {
+      "engine_id": 12,
+      "last_observed_cycle": 146,
+      "actual_rul_cycles": 115.0,
+      "predicted_rul_cycles": 102.4428939819336
+    },
+    {
+      "engine_id": 13,
+      "last_observed_cycle": 65,
+      "actual_rul_cycles": 115.0,
+      "predicted_rul_cycles": 121.49051666259766
+    },
+    {
+      "engine_id": 14,
+      "last_observed_cycle": 169,
+      "actual_rul_cycles": 31.0,
+      "predicted_rul_cycles": 27.944665908813477
+    },
+    {
+      "engine_id": 15,
+      "last_observed_cycle": 112,
+      "actual_rul_cycles": 108.0,
+      "predicted_rul_cycles": 122.16029357910156
+    },
+    {
+      "engine_id": 16,
+      "last_observed_cycle": 126,
+      "actual_rul_cycles": 56.0,
+      "predicted_rul_cycles": 83.55858612060547
+    },
+    {
+      "engine_id": 17,
+      "last_observed_cycle": 230,
+      "actual_rul_cycles": 136.0,
+      "predicted_rul_cycles": 111.24445343017578
+    },
+    {
+      "engine_id": 18,
+      "last_observed_cycle": 244,
+      "actual_rul_cycles": 132.0,
+      "predicted_rul_cycles": 105.87181091308594
+    },
+    {
+      "engine_id": 19,
+      "last_observed_cycle": 115,
+      "actual_rul_cycles": 85.0,
+      "predicted_rul_cycles": 120.62247467041016
+    },
+    {
+      "engine_id": 20,
+      "last_observed_cycle": 207,
+      "actual_rul_cycles": 56.0,
+      "predicted_rul_cycles": 56.641326904296875
+    },
+    {
+      "engine_id": 21,
+      "last_observed_cycle": 263,
+      "actual_rul_cycles": 18.0,
+      "predicted_rul_cycles": 13.858101844787598
+    },
+    {
+      "engine_id": 22,
+      "last_observed_cycle": 119,
+      "actual_rul_cycles": 119.0,
+      "predicted_rul_cycles": 123.1038589477539
+    },
+    {
+      "engine_id": 23,
+      "last_observed_cycle": 405,
+      "actual_rul_cycles": 78.0,
+      "predicted_rul_cycles": 81.30656433105469
+    },
+    {
+      "engine_id": 24,
+      "last_observed_cycle": 475,
+      "actual_rul_cycles": 9.0,
+      "predicted_rul_cycles": 2.4175963401794434
+    },
+    {
+      "engine_id": 25,
+      "last_observed_cycle": 169,
+      "actual_rul_cycles": 58.0,
+      "predicted_rul_cycles": 66.98233032226562
+    },
+    {
+      "engine_id": 26,
+      "last_observed_cycle": 130,
+      "actual_rul_cycles": 11.0,
+      "predicted_rul_cycles": 13.927245140075684
+    },
+    {
+      "engine_id": 27,
+      "last_observed_cycle": 104,
+      "actual_rul_cycles": 88.0,
+      "predicted_rul_cycles": 106.06371307373047
+    },
+    {
+      "engine_id": 28,
+      "last_observed_cycle": 70,
+      "actual_rul_cycles": 144.0,
+      "predicted_rul_cycles": 121.36363983154297
+    },
+    {
+      "engine_id": 29,
+      "last_observed_cycle": 89,
+      "actual_rul_cycles": 124.0,
+      "predicted_rul_cycles": 112.61905670166016
+    },
+    {
+      "engine_id": 30,
+      "last_observed_cycle": 333,
+      "actual_rul_cycles": 89.0,
+      "predicted_rul_cycles": 76.67096710205078
+    },
+    {
+      "engine_id": 31,
+      "last_observed_cycle": 152,
+      "actual_rul_cycles": 79.0,
+      "predicted_rul_cycles": 75.72330474853516
+    },
+    {
+      "engine_id": 32,
+      "last_observed_cycle": 120,
+      "actual_rul_cycles": 55.0,
+      "predicted_rul_cycles": 61.72578430175781
+    },
+    {
+      "engine_id": 33,
+      "last_observed_cycle": 180,
+      "actual_rul_cycles": 71.0,
+      "predicted_rul_cycles": 83.8060073852539
+    },
+    {
+      "engine_id": 34,
+      "last_observed_cycle": 105,
+      "actual_rul_cycles": 65.0,
+      "predicted_rul_cycles": 100.92882537841797
+    },
+    {
+      "engine_id": 35,
+      "last_observed_cycle": 144,
+      "actual_rul_cycles": 87.0,
+      "predicted_rul_cycles": 93.97002410888672
+    },
+    {
+      "engine_id": 36,
+      "last_observed_cycle": 90,
+      "actual_rul_cycles": 137.0,
+      "predicted_rul_cycles": 121.7221450805664
+    },
+    {
+      "engine_id": 37,
+      "last_observed_cycle": 47,
+      "actual_rul_cycles": 145.0,
+      "predicted_rul_cycles": 122.55060577392578
+    },
+    {
+      "engine_id": 38,
+      "last_observed_cycle": 133,
+      "actual_rul_cycles": 22.0,
+      "predicted_rul_cycles": 28.626726150512695
+    },
+    {
+      "engine_id": 39,
+      "last_observed_cycle": 310,
+      "actual_rul_cycles": 8.0,
+      "predicted_rul_cycles": 8.607499122619629
+    },
+    {
+      "engine_id": 40,
+      "last_observed_cycle": 313,
+      "actual_rul_cycles": 41.0,
+      "predicted_rul_cycles": 39.1592903137207
+    },
+    {
+      "engine_id": 41,
+      "last_observed_cycle": 101,
+      "actual_rul_cycles": 131.0,
+      "predicted_rul_cycles": 122.3625259399414
+    },
+    {
+      "engine_id": 42,
+      "last_observed_cycle": 87,
+      "actual_rul_cycles": 115.0,
+      "predicted_rul_cycles": 99.2397232055664
+    },
+    {
+      "engine_id": 43,
+      "last_observed_cycle": 133,
+      "actual_rul_cycles": 128.0,
+      "predicted_rul_cycles": 99.48661041259766
+    },
+    {
+      "engine_id": 44,
+      "last_observed_cycle": 146,
+      "actual_rul_cycles": 69.0,
+      "predicted_rul_cycles": 65.9483871459961
+    },
+    {
+      "engine_id": 45,
+      "last_observed_cycle": 88,
+      "actual_rul_cycles": 111.0,
+      "predicted_rul_cycles": 124.17964172363281
+    },
+    {
+      "engine_id": 46,
+      "last_observed_cycle": 180,
+      "actual_rul_cycles": 7.0,
+      "predicted_rul_cycles": 7.318205833435059
+    },
+    {
+      "engine_id": 47,
+      "last_observed_cycle": 56,
+      "actual_rul_cycles": 137.0,
+      "predicted_rul_cycles": 122.6717300415039
+    },
+    {
+      "engine_id": 48,
+      "last_observed_cycle": 179,
+      "actual_rul_cycles": 55.0,
+      "predicted_rul_cycles": 54.240638732910156
+    },
+    {
+      "engine_id": 49,
+      "last_observed_cycle": 211,
+      "actual_rul_cycles": 135.0,
+      "predicted_rul_cycles": 118.57070922851562
+    },
+    {
+      "engine_id": 50,
+      "last_observed_cycle": 147,
+      "actual_rul_cycles": 11.0,
+      "predicted_rul_cycles": 18.56864356994629
+    },
+    {
+      "engine_id": 51,
+      "last_observed_cycle": 118,
+      "actual_rul_cycles": 78.0,
+      "predicted_rul_cycles": 111.34082794189453
+    },
+    {
+      "engine_id": 52,
+      "last_observed_cycle": 38,
+      "actual_rul_cycles": 120.0,
+      "predicted_rul_cycles": 115.93697357177734
+    },
+    {
+      "engine_id": 53,
+      "last_observed_cycle": 108,
+      "actual_rul_cycles": 87.0,
+      "predicted_rul_cycles": 121.83748626708984
+    },
+    {
+      "engine_id": 54,
+      "last_observed_cycle": 50,
+      "actual_rul_cycles": 87.0,
+      "predicted_rul_cycles": 118.30704498291016
+    },
+    {
+      "engine_id": 55,
+      "last_observed_cycle": 203,
+      "actual_rul_cycles": 55.0,
+      "predicted_rul_cycles": 64.34127044677734
+    },
+    {
+      "engine_id": 56,
+      "last_observed_cycle": 162,
+      "actual_rul_cycles": 93.0,
+      "predicted_rul_cycles": 72.53606414794922
+    },
+    {
+      "engine_id": 57,
+      "last_observed_cycle": 158,
+      "actual_rul_cycles": 88.0,
+      "predicted_rul_cycles": 60.838077545166016
+    },
+    {
+      "engine_id": 58,
+      "last_observed_cycle": 119,
+      "actual_rul_cycles": 40.0,
+      "predicted_rul_cycles": 39.52080535888672
+    },
+    {
+      "engine_id": 59,
+      "last_observed_cycle": 149,
+      "actual_rul_cycles": 49.0,
+      "predicted_rul_cycles": 39.757667541503906
+    },
+    {
+      "engine_id": 60,
+      "last_observed_cycle": 112,
+      "actual_rul_cycles": 128.0,
+      "predicted_rul_cycles": 117.31302642822266
+    },
+    {
+      "engine_id": 61,
+      "last_observed_cycle": 78,
+      "actual_rul_cycles": 129.0,
+      "predicted_rul_cycles": 124.87769317626953
+    },
+    {
+      "engine_id": 62,
+      "last_observed_cycle": 224,
+      "actual_rul_cycles": 58.0,
+      "predicted_rul_cycles": 48.66313171386719
+    },
+    {
+      "engine_id": 63,
+      "last_observed_cycle": 137,
+      "actual_rul_cycles": 117.0,
+      "predicted_rul_cycles": 120.63684844970703
+    },
+    {
+      "engine_id": 64,
+      "last_observed_cycle": 271,
+      "actual_rul_cycles": 28.0,
+      "predicted_rul_cycles": 27.85923194885254
+    },
+    {
+      "engine_id": 65,
+      "last_observed_cycle": 79,
+      "actual_rul_cycles": 115.0,
+      "predicted_rul_cycles": 124.36544036865234
+    },
+    {
+      "engine_id": 66,
+      "last_observed_cycle": 122,
+      "actual_rul_cycles": 87.0,
+      "predicted_rul_cycles": 88.77498626708984
+    },
+    {
+      "engine_id": 67,
+      "last_observed_cycle": 186,
+      "actual_rul_cycles": 92.0,
+      "predicted_rul_cycles": 120.51959991455078
+    },
+    {
+      "engine_id": 68,
+      "last_observed_cycle": 188,
+      "actual_rul_cycles": 103.0,
+      "predicted_rul_cycles": 109.69341278076172
+    },
+    {
+      "engine_id": 69,
+      "last_observed_cycle": 105,
+      "actual_rul_cycles": 100.0,
+      "predicted_rul_cycles": 122.9803695678711
+    },
+    {
+      "engine_id": 70,
+      "last_observed_cycle": 84,
+      "actual_rul_cycles": 63.0,
+      "predicted_rul_cycles": 95.79138946533203
+    },
+    {
+      "engine_id": 71,
+      "last_observed_cycle": 367,
+      "actual_rul_cycles": 35.0,
+      "predicted_rul_cycles": 33.81764602661133
+    },
+    {
+      "engine_id": 72,
+      "last_observed_cycle": 232,
+      "actual_rul_cycles": 45.0,
+      "predicted_rul_cycles": 45.424407958984375
+    },
+    {
+      "engine_id": 73,
+      "last_observed_cycle": 109,
+      "actual_rul_cycles": 99.0,
+      "predicted_rul_cycles": 117.50926971435547
+    },
+    {
+      "engine_id": 74,
+      "last_observed_cycle": 68,
+      "actual_rul_cycles": 117.0,
+      "predicted_rul_cycles": 123.90324401855469
+    },
+    {
+      "engine_id": 75,
+      "last_observed_cycle": 191,
+      "actual_rul_cycles": 45.0,
+      "predicted_rul_cycles": 49.218482971191406
+    },
+    {
+      "engine_id": 76,
+      "last_observed_cycle": 180,
+      "actual_rul_cycles": 27.0,
+      "predicted_rul_cycles": 25.676618576049805
+    },
+    {
+      "engine_id": 77,
+      "last_observed_cycle": 381,
+      "actual_rul_cycles": 86.0,
+      "predicted_rul_cycles": 68.4222412109375
+    },
+    {
+      "engine_id": 78,
+      "last_observed_cycle": 279,
+      "actual_rul_cycles": 20.0,
+      "predicted_rul_cycles": 22.7525691986084
+    },
+    {
+      "engine_id": 79,
+      "last_observed_cycle": 170,
+      "actual_rul_cycles": 18.0,
+      "predicted_rul_cycles": 24.669902801513672
+    },
+    {
+      "engine_id": 80,
+      "last_observed_cycle": 85,
+      "actual_rul_cycles": 133.0,
+      "predicted_rul_cycles": 124.32135009765625
+    },
+    {
+      "engine_id": 81,
+      "last_observed_cycle": 155,
+      "actual_rul_cycles": 15.0,
+      "predicted_rul_cycles": 15.059233665466309
+    },
+    {
+      "engine_id": 82,
+      "last_observed_cycle": 194,
+      "actual_rul_cycles": 6.0,
+      "predicted_rul_cycles": 4.651087760925293
+    },
+    {
+      "engine_id": 83,
+      "last_observed_cycle": 168,
+      "actual_rul_cycles": 145.0,
+      "predicted_rul_cycles": 123.34261322021484
+    },
+    {
+      "engine_id": 84,
+      "last_observed_cycle": 76,
+      "actual_rul_cycles": 104.0,
+      "predicted_rul_cycles": 102.9854736328125
+    },
+    {
+      "engine_id": 85,
+      "last_observed_cycle": 118,
+      "actual_rul_cycles": 56.0,
+      "predicted_rul_cycles": 67.57354736328125
+    },
+    {
+      "engine_id": 86,
+      "last_observed_cycle": 174,
+      "actual_rul_cycles": 25.0,
+      "predicted_rul_cycles": 26.784347534179688
+    },
+    {
+      "engine_id": 87,
+      "last_observed_cycle": 218,
+      "actual_rul_cycles": 68.0,
+      "predicted_rul_cycles": 57.84667205810547
+    },
+    {
+      "engine_id": 88,
+      "last_observed_cycle": 41,
+      "actual_rul_cycles": 144.0,
+      "predicted_rul_cycles": 124.24333190917969
+    },
+    {
+      "engine_id": 89,
+      "last_observed_cycle": 120,
+      "actual_rul_cycles": 41.0,
+      "predicted_rul_cycles": 49.90558624267578
+    },
+    {
+      "engine_id": 90,
+      "last_observed_cycle": 206,
+      "actual_rul_cycles": 51.0,
+      "predicted_rul_cycles": 64.66236877441406
+    },
+    {
+      "engine_id": 91,
+      "last_observed_cycle": 56,
+      "actual_rul_cycles": 81.0,
+      "predicted_rul_cycles": 105.7494125366211
+    },
+    {
+      "engine_id": 92,
+      "last_observed_cycle": 266,
+      "actual_rul_cycles": 14.0,
+      "predicted_rul_cycles": 12.300271987915039
+    },
+    {
+      "engine_id": 93,
+      "last_observed_cycle": 158,
+      "actual_rul_cycles": 67.0,
+      "predicted_rul_cycles": 73.54483795166016
+    },
+    {
+      "engine_id": 94,
+      "last_observed_cycle": 333,
+      "actual_rul_cycles": 10.0,
+      "predicted_rul_cycles": 4.233402252197266
+    },
+    {
+      "engine_id": 95,
+      "last_observed_cycle": 213,
+      "actual_rul_cycles": 127.0,
+      "predicted_rul_cycles": 90.74998474121094
+    },
+    {
+      "engine_id": 96,
+      "last_observed_cycle": 358,
+      "actual_rul_cycles": 113.0,
+      "predicted_rul_cycles": 102.27425384521484
+    },
+    {
+      "engine_id": 97,
+      "last_observed_cycle": 95,
+      "actual_rul_cycles": 123.0,
+      "predicted_rul_cycles": 124.5027847290039
+    },
+    {
+      "engine_id": 98,
+      "last_observed_cycle": 182,
+      "actual_rul_cycles": 17.0,
+      "predicted_rul_cycles": 24.886795043945312
+    },
+    {
+      "engine_id": 99,
+      "last_observed_cycle": 289,
+      "actual_rul_cycles": 8.0,
+      "predicted_rul_cycles": 8.303598403930664
+    },
+    {
+      "engine_id": 100,
+      "last_observed_cycle": 247,
+      "actual_rul_cycles": 28.0,
+      "predicted_rul_cycles": 22.50938606262207
+    }
+  ]
+}

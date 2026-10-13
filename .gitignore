@@ -1,0 +1,57 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Node.js and Frontend builds
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.npm
+npm-debug.log*
+
+# Environment and local configurations
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+!.env.example
+!frontend/.env.example
+
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large dataset raw files (keep folder structure via .gitkeep)
+data/*.txt
+!data/.gitkeep
+
+# Generated reports & training outputs
+reports/*.csv
+reports/*.json
+!reports/.gitkeep
+
+# Checkpoint model binaries (weights)
+artifacts/*.pt
+artifacts/*.joblib
+!artifacts/.gitkeep
